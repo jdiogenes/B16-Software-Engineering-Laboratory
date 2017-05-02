@@ -9,10 +9,10 @@ O arquivo ball.cpp contém a implementação das funções ball(), step() e disp
 
 na função ball() do arquivo ball.cpp são inicializadas as seguintes variáveis:
 
-r(0.1) -> Tamanho da bola
-x(0) -> Coordenada inicial x
-y(0) -> Coordenada inicial y
-vx(0.3) -> Velocidade da bola na posição x
+r(0.1) -> Tamanho da bola.
+x(0) -> Coordenada inicial x.
+y(0) -> Coordenada inicial y.
+vx(0.3) -> Velocidade da bola na posição x.
 vy(-0.1) -> Velocidade da bola na posição y
 g(9.8) -> Gravidade
 m(1) -> Massa da bola
