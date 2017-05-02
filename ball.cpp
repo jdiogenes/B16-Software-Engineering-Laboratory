@@ -34,10 +34,10 @@ void Ball::display()
   std::cout<<x<<" "<<y<<std::endl ;
 }
 
-void Ball::setBall()
-{
-  
-
+double Ball::setBall(double xp, double yp)
+{	
+  x = xp;
+  y = yp;
 }
 
 double Ball::getBallx()
