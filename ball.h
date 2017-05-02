@@ -15,8 +15,9 @@ public:
   Ball() ;
   void step(double dt) ;
   void display() ;
-  void setBall();
-  void getBall();
+  double setBall();
+  double getBallx();
+  double getBally();
 
 protected:
   // Data members
