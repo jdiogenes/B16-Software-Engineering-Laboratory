@@ -13,8 +13,10 @@ Na função ball() do arquivo ball.cpp estão inicializadas as seguintes variáv
 
 Ao executar a aplicação, a seguinte saída de 100 linhas é esperada:
 
-![image](https://cdn.pbrd.co/images/1t8Cg29u2.png)
-![image](https://cdn.pbrd.co/images/1t9fQlrR8.png)
+![image](https://cdn.pbrd.co/images/1uc1Wo0Hs.png)
+![image](https://cdn.pbrd.co/images/1ucptjlh0.png)
+![image](https://cdn.pbrd.co/images/1ucPjkWz4.png)
+
 A quantidade de linhas que a saída trará pode ser modificado na linha em que está presente a seguinte instrução: "for (int i = 0 ; i < 100 ; ++i) {" presente no arquivo test-ball.cpp, bastando apenas modificar 'i < 100' por 'i < (valor desejado de linhas que a aplicação retornará)'.
 
 Podemos ainda construir um gráfico bidimensional com as coordenadas passadas pela aplicação. Utilizando o matlab ou um software similar, construímos o seguinte gráfico:
