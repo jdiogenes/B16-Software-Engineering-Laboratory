@@ -15,7 +15,7 @@ public:
   Ball() ;
   void step(double dt) ;
   void display() ;
-  double setBall();
+  double setBall(double xp, double yp);
   double getBallx();
   double getBally();
 
