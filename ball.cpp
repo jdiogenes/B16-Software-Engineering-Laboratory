@@ -33,3 +33,19 @@ void Ball::display()
 {
   std::cout<<x<<" "<<y<<std::endl ;
 }
+
+void Ball::setBall()
+{
+  
+
+}
+
+double Ball::getBallx()
+{
+  return x;
+}
+
+double Ball::getBally()
+{
+  return y;
+}
