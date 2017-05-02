@@ -120,19 +120,27 @@ Ao executar a aplicação, a seguinte saída (100 linhas) é esperada:
 
 A quantidade de linhas que a saída trará pode ser modificado na linha em que está presente a seguinte instrução: "for (int i = 0 ; i < 100 ; ++i) {" presente no arquivo test-ball.cpp, bastando apenas modificar 'i < 100' por 'i < (valor desejado de linhas que a aplicação retornará)'.
 
-![ScreenShot](https://{imgur.com/AitnVc6})	1
+![image](https://{imgur.com/AitnVc6})	1
 http://imgur.com/a/zIQdK
 
 http://imgur.com/AitnVc6
 
-![ScreenShot]({https://imgur.com/AitnVc6})	2
+![image]({https://imgur.com/AitnVc6})	2
 
 
 
-![ScreenShot]({http://imgur.com/AitnVc6})	3
+![image]({http://imgur.com/AitnVc6})	3
 
 
-![ScreenShot](http://{imgur.com/AitnVc6})	4
+![image](http://{imgur.com/AitnVc6})	4
+
+![image](https://imgur.com/AitnVc6)
+
+![image](http://imgur.com/AitnVc6)
+
+![Screenshot](http://imgur.com/AitnVc6)
+
+![Screenshot](https://imgur.com/AitnVc6)
 
 
 
