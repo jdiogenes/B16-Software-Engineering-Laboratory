@@ -21,6 +21,8 @@ Ao executar a aplicação, a seguinte saída de 100 linhas é esperada:
 
 A quantidade de linhas que a saída trará pode ser modificado na linha em que está a instrução: "for (int i = 0 ; i < 100 ; ++i) {" (presente no arquivo test-ball.cpp), bastando apenas modificar 'i < 100' por 'i < (valor desejado de linhas que a aplicação retornará)'.
 
+Para debugar este projeto, basta digitar a seguinte linha de comando no linux: g++ -g test-ball.cpp ball.h ball.cpp -o ball_gdb
+
 Podemos ainda construir um gráfico bidimensional com as coordenadas passadas pela aplicação. Utilizando o matlab ou um software similar, construímos o seguinte gráfico:
 
 ![image](https://cdn.pbrd.co/images/1rGDJGUuj.png)
