@@ -7,22 +7,9 @@ Para compilar este projeto, basta digitar a seguinte linha de comando no linux: 
 
 O arquivo ball.cpp contém a implementação das funções ball(), step() e display().
 
-na função ball() do arquivo ball.cpp são inicializadas as seguintes variáveis:
+Na função ball() do arquivo ball.cpp estão inicializadas as seguintes variáveis:
 
-
-r(0.1) -> Tamanho da bola
-
-x(0) -> Coordenada inicial x
-
-y(0) -> Coordenada inicial y.
-vx(0.3) -> Velocidade da bola na posição x.
-vy(-0.1) -> Velocidade da bola na posição y
-g(9.8) -> Gravidade
-m(1) -> Massa da bola
-xmin(-1) -> Coordenada mínima da geometria da caixa 'x'
-xmax(1) -> Coordenada máxima da geometria da caixa 'x'
-ymin(-1) -> Coordenada mínima da geometria da caixa 'y'
-ymax(1) -> Coordenada máxima da geometria da caixa 'y'
+![image](https://cdn.pbrd.co/images/1u3KIeA8p.png)
 
 Ao executar a aplicação, a seguinte saída de 100 linhas é esperada:
 
