@@ -20,8 +20,10 @@ int main(int argc, char** argv)
   cin >> y;	
 
   for (int i = 0 ; i < 100 ; ++i) {
-    ball.step(dt) ;
-    ball.display() ;
+  s.step(dt);
+  s.display();
+    //ball.step(dt) ;
+    //ball.display() ;
   }
   return 0 ;
 }
