@@ -120,27 +120,33 @@ Ao executar a aplicação, a seguinte saída (100 linhas) é esperada:
 
 A quantidade de linhas que a saída trará pode ser modificado na linha em que está presente a seguinte instrução: "for (int i = 0 ; i < 100 ; ++i) {" presente no arquivo test-ball.cpp, bastando apenas modificar 'i < 100' por 'i < (valor desejado de linhas que a aplicação retornará)'.
 
-![image](https://{imgur.com/AitnVc6})	1
+![image](https://{cdn.pbrd.co/images/1rGDJGUuj.png})	1
 http://imgur.com/a/zIQdK
 
 http://imgur.com/AitnVc6
 
-![image]({https://imgur.com/AitnVc6})	2
+![image]({https://cdn.pbrd.co/images/1rGDJGUuj.png})	2
 
 
 
-![image]({http://imgur.com/AitnVc6})	3
+![image]({http://cdn.pbrd.co/images/1rGDJGUuj.png})	3
 
 
-![image](http://{imgur.com/AitnVc6})	4
+![image](http://{cdn.pbrd.co/images/1rGDJGUuj.png})	4
 
-![image](https://imgur.com/AitnVc6)
+![image](https://cdn.pbrd.co/images/1rGDJGUuj.png)
 
-![image](http://imgur.com/AitnVc6)
+![image](http://cdn.pbrd.co/images/1rGDJGUuj.png)
 
-![Screenshot](http://imgur.com/AitnVc6)
+![Screenshot](https://cdn.pbrd.co/images/1rGDJGUuj.png)
 
-![Screenshot](https://imgur.com/AitnVc6)
+![Screenshot](http://cdn.pbrd.co/images/1rGDJGUuj.png)
+
+![Screenshot](https://{cdn.pbrd.co/images/1rGDJGUuj.png})
+
+![Screenshot](https://cdn.pbrd.co/images/1rGDJGUuj.png)
+
+![Screenshot]({https://cdn.pbrd.co/images/1rGDJGUuj.png})
 
 
 
