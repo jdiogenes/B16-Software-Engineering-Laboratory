@@ -16,7 +16,12 @@ int main(int argc, char** argv)
   Mass m1(Vector2(-.5,0), Vector2(), mass, radius) ;
   Mass m2(Vector2(+.5,0), Vector2(), mass, radius) ;
 
-/* INCOMPLETE: TYPE YOUR CODE HERE */
+  /* INCOMPLETE: TYPE YOUR CODE HERE 
+     1. Adicione as duas massas instanciadas acima (2 linhas).
+     2. Adicione uma mola com as duas massas (indexadas por 0 e 1),
+        e com o parametro de comprimento em repouso inicializado acima.
+	(1 linha).
+   */
 
   const double dt = 1.0/30 ;
   for (int i = 0 ; i < 100 ; ++i) {
