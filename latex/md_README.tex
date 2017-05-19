@@ -1,0 +1,25 @@
+O repositório B16-\/\+Software-\/\+Engineering-\/\+Laboratory foi criado para simular de forma dinâmica o movimento de uma bola que realiza saltos sob a gravidade.
+
+Para compilar este projeto, basta digitar a seguinte linha de comando no linux\+: g++ -\/o ball \hyperlink{ball_8cpp}{ball.\+cpp} \hyperlink{ball_8h}{ball.\+h} \hyperlink{test-ball_8cpp}{test-\/ball.\+cpp}
+
+O arquivo \hyperlink{ball_8cpp}{ball.\+cpp} contém a implementação das funções ball(), step() e display().
+
+Na função ball() do arquivo \hyperlink{ball_8cpp}{ball.\+cpp} estão inicializadas as seguintes variáveis\+:
+
+
+
+Ao executar a aplicação, a seguinte saída de 100 linhas é esperada\+:
+
+
+
+
+
+
+
+A quantidade de linhas que a saída trará pode ser modificado na linha em que está a instrução\+: \char`\"{}for (int i = 0 ; i $<$ 100 ; ++i) \{\char`\"{} (presente no arquivo \hyperlink{test-ball_8cpp}{test-\/ball.\+cpp}), bastando apenas modificar \textquotesingle{}i $<$ 100\textquotesingle{} por \textquotesingle{}i $<$ (valor desejado de linhas que a aplicação retornará)\textquotesingle{}.
+
+Para debugar este projeto, basta digitar a seguinte linha de comando no linux\+: g++ -\/g \hyperlink{test-ball_8cpp}{test-\/ball.\+cpp} \hyperlink{ball_8h}{ball.\+h} \hyperlink{ball_8cpp}{ball.\+cpp} -\/o ball\+\_\+gdb
+
+Podemos ainda construir um gráfico bidimensional com as coordenadas passadas pela aplicação. Utilizando o matlab ou um software similar, construímos o seguinte gráfico\+:
+
+ 

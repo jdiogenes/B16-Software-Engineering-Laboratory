@@ -1,0 +1,108 @@
+\hypertarget{springmass_8h}{}\section{springmass.\+h File Reference}
+\label{springmass_8h}\index{springmass.\+h@{springmass.\+h}}
+{\ttfamily \#include \char`\"{}simulation.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+Include dependency graph for springmass.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{springmass_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{springmass_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classVector2}{Vector2}
+\item 
+class \hyperlink{classMass}{Mass}
+\item 
+class \hyperlink{classSpring}{Spring}
+\item 
+class \hyperlink{classSpringMass}{Spring\+Mass}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{springmass_8h_a03ad3bae72a0ac7965460a63fd454f44}{M\+O\+O\+N\+\_\+\+G\+R\+A\+V\+I\+TY}~1.\+62
+\item 
+\#define \hyperlink{springmass_8h_a86d8ad802eb726f5cef184892a3b45a4}{E\+A\+R\+T\+H\+\_\+\+G\+R\+A\+V\+I\+TY}~9.\+82
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classVector2}{Vector2} \hyperlink{springmass_8h_a31e3edd3b25d0dfe3b9a0b07e93f3365}{operator+} (\hyperlink{classVector2}{Vector2} a, \hyperlink{classVector2}{Vector2} b)
+\item 
+\hyperlink{classVector2}{Vector2} \hyperlink{springmass_8h_a1a3d5fba2778a3d4c97629baca753853}{operator-\/} (\hyperlink{classVector2}{Vector2} a, \hyperlink{classVector2}{Vector2} b)
+\item 
+\hyperlink{classVector2}{Vector2} \hyperlink{springmass_8h_a28a37cea996dfa0b6d7c048ac89227bb}{operator$\ast$} (double a, \hyperlink{classVector2}{Vector2} b)
+\item 
+\hyperlink{classVector2}{Vector2} \hyperlink{springmass_8h_a3e6ab2ac27cc68b574eaea146bd714ce}{operator$\ast$} (\hyperlink{classVector2}{Vector2} a, double b)
+\item 
+\hyperlink{classVector2}{Vector2} \hyperlink{springmass_8h_a8f77c1d121d92271c1c736e7b9a38a93}{operator/} (\hyperlink{classVector2}{Vector2} a, double b)
+\item 
+double \hyperlink{springmass_8h_a6e6659dcf321b29ea4f0f9e763d502d0}{dot} (\hyperlink{classVector2}{Vector2} a, \hyperlink{classVector2}{Vector2} b)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{springmass_8h_a86d8ad802eb726f5cef184892a3b45a4}\label{springmass_8h_a86d8ad802eb726f5cef184892a3b45a4}} 
+\index{springmass.\+h@{springmass.\+h}!E\+A\+R\+T\+H\+\_\+\+G\+R\+A\+V\+I\+TY@{E\+A\+R\+T\+H\+\_\+\+G\+R\+A\+V\+I\+TY}}
+\index{E\+A\+R\+T\+H\+\_\+\+G\+R\+A\+V\+I\+TY@{E\+A\+R\+T\+H\+\_\+\+G\+R\+A\+V\+I\+TY}!springmass.\+h@{springmass.\+h}}
+\subsubsection{\texorpdfstring{E\+A\+R\+T\+H\+\_\+\+G\+R\+A\+V\+I\+TY}{EARTH\_GRAVITY}}
+{\footnotesize\ttfamily \#define E\+A\+R\+T\+H\+\_\+\+G\+R\+A\+V\+I\+TY~9.\+82}
+
+\mbox{\Hypertarget{springmass_8h_a03ad3bae72a0ac7965460a63fd454f44}\label{springmass_8h_a03ad3bae72a0ac7965460a63fd454f44}} 
+\index{springmass.\+h@{springmass.\+h}!M\+O\+O\+N\+\_\+\+G\+R\+A\+V\+I\+TY@{M\+O\+O\+N\+\_\+\+G\+R\+A\+V\+I\+TY}}
+\index{M\+O\+O\+N\+\_\+\+G\+R\+A\+V\+I\+TY@{M\+O\+O\+N\+\_\+\+G\+R\+A\+V\+I\+TY}!springmass.\+h@{springmass.\+h}}
+\subsubsection{\texorpdfstring{M\+O\+O\+N\+\_\+\+G\+R\+A\+V\+I\+TY}{MOON\_GRAVITY}}
+{\footnotesize\ttfamily \#define M\+O\+O\+N\+\_\+\+G\+R\+A\+V\+I\+TY~1.\+62}
+
+file\+: \hyperlink{springmass_8h}{springmass.\+h} brief\+: \hyperlink{classSpringMass}{Spring\+Mass} simulation author\+: Andrea Vedaldi 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{springmass_8h_a6e6659dcf321b29ea4f0f9e763d502d0}\label{springmass_8h_a6e6659dcf321b29ea4f0f9e763d502d0}} 
+\index{springmass.\+h@{springmass.\+h}!dot@{dot}}
+\index{dot@{dot}!springmass.\+h@{springmass.\+h}}
+\subsubsection{\texorpdfstring{dot()}{dot()}}
+{\footnotesize\ttfamily double dot (\begin{DoxyParamCaption}\item[{\hyperlink{classVector2}{Vector2}}]{a,  }\item[{\hyperlink{classVector2}{Vector2}}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{springmass_8h_a28a37cea996dfa0b6d7c048ac89227bb}\label{springmass_8h_a28a37cea996dfa0b6d7c048ac89227bb}} 
+\index{springmass.\+h@{springmass.\+h}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!springmass.\+h@{springmass.\+h}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \hyperlink{classVector2}{Vector2} operator$\ast$ (\begin{DoxyParamCaption}\item[{double}]{a,  }\item[{\hyperlink{classVector2}{Vector2}}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{springmass_8h_a3e6ab2ac27cc68b574eaea146bd714ce}\label{springmass_8h_a3e6ab2ac27cc68b574eaea146bd714ce}} 
+\index{springmass.\+h@{springmass.\+h}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!springmass.\+h@{springmass.\+h}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \hyperlink{classVector2}{Vector2} operator$\ast$ (\begin{DoxyParamCaption}\item[{\hyperlink{classVector2}{Vector2}}]{a,  }\item[{double}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{springmass_8h_a31e3edd3b25d0dfe3b9a0b07e93f3365}\label{springmass_8h_a31e3edd3b25d0dfe3b9a0b07e93f3365}} 
+\index{springmass.\+h@{springmass.\+h}!operator+@{operator+}}
+\index{operator+@{operator+}!springmass.\+h@{springmass.\+h}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \hyperlink{classVector2}{Vector2} operator+ (\begin{DoxyParamCaption}\item[{\hyperlink{classVector2}{Vector2}}]{a,  }\item[{\hyperlink{classVector2}{Vector2}}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{springmass_8h_a1a3d5fba2778a3d4c97629baca753853}\label{springmass_8h_a1a3d5fba2778a3d4c97629baca753853}} 
+\index{springmass.\+h@{springmass.\+h}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!springmass.\+h@{springmass.\+h}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily \hyperlink{classVector2}{Vector2} operator-\/ (\begin{DoxyParamCaption}\item[{\hyperlink{classVector2}{Vector2}}]{a,  }\item[{\hyperlink{classVector2}{Vector2}}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{springmass_8h_a8f77c1d121d92271c1c736e7b9a38a93}\label{springmass_8h_a8f77c1d121d92271c1c736e7b9a38a93}} 
+\index{springmass.\+h@{springmass.\+h}!operator/@{operator/}}
+\index{operator/@{operator/}!springmass.\+h@{springmass.\+h}}
+\subsubsection{\texorpdfstring{operator/()}{operator/()}}
+{\footnotesize\ttfamily \hyperlink{classVector2}{Vector2} operator/ (\begin{DoxyParamCaption}\item[{\hyperlink{classVector2}{Vector2}}]{a,  }\item[{double}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+

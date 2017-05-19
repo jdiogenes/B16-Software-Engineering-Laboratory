@@ -1,0 +1,107 @@
+\hypertarget{graphics_8cpp}{}\section{graphics.\+cpp File Reference}
+\label{graphics_8cpp}\index{graphics.\+cpp@{graphics.\+cpp}}
+{\ttfamily \#include \char`\"{}graphics.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$cassert$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+Include dependency graph for graphics.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{graphics_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef std\+::vector$<$ \hyperlink{classFigure}{Figure} $\ast$ $>$ \hyperlink{graphics_8cpp_abe02648a451965fae83d1276b6073260}{figures\+\_\+t}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{graphics_8cpp_ace3c148657c05d4b13aab34ffef560fe}{R\+O\+U\+ND} (float x)
+\item 
+void \hyperlink{graphics_8cpp_adcd2119d5c903d502202458acaaa04b1}{handle\+Timer} (int id)
+\item 
+void \hyperlink{graphics_8cpp_a13a43e6d814de94978c515cb084873b1}{run} ()
+\item 
+void \hyperlink{graphics_8cpp_a0861523e83bae88b69987cfb79dccbfa}{run} (\hyperlink{classSimulation}{Simulation} $\ast$simulation, double time\+Step)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{graphics_8cpp_abe02648a451965fae83d1276b6073260}{figures\+\_\+t} \hyperlink{graphics_8cpp_a40a0c0dd97e6a866f089490393685764}{figures}
+\item 
+\hyperlink{classSimulation}{Simulation} $\ast$ \hyperlink{graphics_8cpp_a041ceee124d1b4999cff56ea55529fbe}{running\+Simulation} = N\+U\+LL
+\item 
+double \hyperlink{graphics_8cpp_a485f580bc91e4fbdab5c8f1cb080e96f}{running\+Simulation\+Time}
+\item 
+double \hyperlink{graphics_8cpp_a35d868eb3000aaf61ae8c9a8f84ae532}{running\+Simulation\+Time\+Step}
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\mbox{\Hypertarget{graphics_8cpp_abe02648a451965fae83d1276b6073260}\label{graphics_8cpp_abe02648a451965fae83d1276b6073260}} 
+\index{graphics.\+cpp@{graphics.\+cpp}!figures\+\_\+t@{figures\+\_\+t}}
+\index{figures\+\_\+t@{figures\+\_\+t}!graphics.\+cpp@{graphics.\+cpp}}
+\subsubsection{\texorpdfstring{figures\+\_\+t}{figures\_t}}
+{\footnotesize\ttfamily typedef std\+::vector$<$\hyperlink{classFigure}{Figure}$\ast$$>$ \hyperlink{graphics_8cpp_abe02648a451965fae83d1276b6073260}{figures\+\_\+t}}
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{graphics_8cpp_adcd2119d5c903d502202458acaaa04b1}\label{graphics_8cpp_adcd2119d5c903d502202458acaaa04b1}} 
+\index{graphics.\+cpp@{graphics.\+cpp}!handle\+Timer@{handle\+Timer}}
+\index{handle\+Timer@{handle\+Timer}!graphics.\+cpp@{graphics.\+cpp}}
+\subsubsection{\texorpdfstring{handle\+Timer()}{handleTimer()}}
+{\footnotesize\ttfamily void handle\+Timer (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{graphics_8cpp_ace3c148657c05d4b13aab34ffef560fe}\label{graphics_8cpp_ace3c148657c05d4b13aab34ffef560fe}} 
+\index{graphics.\+cpp@{graphics.\+cpp}!R\+O\+U\+ND@{R\+O\+U\+ND}}
+\index{R\+O\+U\+ND@{R\+O\+U\+ND}!graphics.\+cpp@{graphics.\+cpp}}
+\subsubsection{\texorpdfstring{R\+O\+U\+N\+D()}{ROUND()}}
+{\footnotesize\ttfamily int R\+O\+U\+ND (\begin{DoxyParamCaption}\item[{float}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+file\+: \hyperlink{graphics_8cpp}{graphics.\+cpp} brief\+: Graphic helpers implementation author\+: Andrea Vedaldi \mbox{\Hypertarget{graphics_8cpp_a13a43e6d814de94978c515cb084873b1}\label{graphics_8cpp_a13a43e6d814de94978c515cb084873b1}} 
+\index{graphics.\+cpp@{graphics.\+cpp}!run@{run}}
+\index{run@{run}!graphics.\+cpp@{graphics.\+cpp}}
+\subsubsection{\texorpdfstring{run()}{run()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+file\+: \hyperlink{graphics_8h}{graphics.\+h} brief\+: Graphics helpers author\+: Andrea Vedaldi \mbox{\Hypertarget{graphics_8cpp_a0861523e83bae88b69987cfb79dccbfa}\label{graphics_8cpp_a0861523e83bae88b69987cfb79dccbfa}} 
+\index{graphics.\+cpp@{graphics.\+cpp}!run@{run}}
+\index{run@{run}!graphics.\+cpp@{graphics.\+cpp}}
+\subsubsection{\texorpdfstring{run()}{run()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void run (\begin{DoxyParamCaption}\item[{\hyperlink{classSimulation}{Simulation} $\ast$}]{simulation,  }\item[{double}]{time\+Step }\end{DoxyParamCaption})}
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{graphics_8cpp_a40a0c0dd97e6a866f089490393685764}\label{graphics_8cpp_a40a0c0dd97e6a866f089490393685764}} 
+\index{graphics.\+cpp@{graphics.\+cpp}!figures@{figures}}
+\index{figures@{figures}!graphics.\+cpp@{graphics.\+cpp}}
+\subsubsection{\texorpdfstring{figures}{figures}}
+{\footnotesize\ttfamily \hyperlink{graphics_8cpp_abe02648a451965fae83d1276b6073260}{figures\+\_\+t} figures}
+
+\mbox{\Hypertarget{graphics_8cpp_a041ceee124d1b4999cff56ea55529fbe}\label{graphics_8cpp_a041ceee124d1b4999cff56ea55529fbe}} 
+\index{graphics.\+cpp@{graphics.\+cpp}!running\+Simulation@{running\+Simulation}}
+\index{running\+Simulation@{running\+Simulation}!graphics.\+cpp@{graphics.\+cpp}}
+\subsubsection{\texorpdfstring{running\+Simulation}{runningSimulation}}
+{\footnotesize\ttfamily \hyperlink{classSimulation}{Simulation}$\ast$ running\+Simulation = N\+U\+LL}
+
+\mbox{\Hypertarget{graphics_8cpp_a485f580bc91e4fbdab5c8f1cb080e96f}\label{graphics_8cpp_a485f580bc91e4fbdab5c8f1cb080e96f}} 
+\index{graphics.\+cpp@{graphics.\+cpp}!running\+Simulation\+Time@{running\+Simulation\+Time}}
+\index{running\+Simulation\+Time@{running\+Simulation\+Time}!graphics.\+cpp@{graphics.\+cpp}}
+\subsubsection{\texorpdfstring{running\+Simulation\+Time}{runningSimulationTime}}
+{\footnotesize\ttfamily double running\+Simulation\+Time}
+
+\mbox{\Hypertarget{graphics_8cpp_a35d868eb3000aaf61ae8c9a8f84ae532}\label{graphics_8cpp_a35d868eb3000aaf61ae8c9a8f84ae532}} 
+\index{graphics.\+cpp@{graphics.\+cpp}!running\+Simulation\+Time\+Step@{running\+Simulation\+Time\+Step}}
+\index{running\+Simulation\+Time\+Step@{running\+Simulation\+Time\+Step}!graphics.\+cpp@{graphics.\+cpp}}
+\subsubsection{\texorpdfstring{running\+Simulation\+Time\+Step}{runningSimulationTimeStep}}
+{\footnotesize\ttfamily double running\+Simulation\+Time\+Step}
+

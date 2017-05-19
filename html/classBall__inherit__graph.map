@@ -1,0 +1,4 @@
+<map id="Ball" name="Ball">
+<area shape="rect" id="node3" href="$classBallDrawable.html" title="{BallDrawable\n||+ BallDrawable()\l+ draw()\l+ display()\l}" alt="" coords="5,491,124,597"/>
+<area shape="rect" id="node2" href="$classSimulation.html" title="{Simulation\n||+ step()\l+ display()\l}" alt="" coords="23,5,106,97"/>
+</map>

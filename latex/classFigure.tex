@@ -1,0 +1,125 @@
+\hypertarget{classFigure}{}\section{Figure Class Reference}
+\label{classFigure}\index{Figure@{Figure}}
+
+
+{\ttfamily \#include $<$graphics.\+h$>$}
+
+
+
+Inheritance diagram for Figure\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{classFigure__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Figure\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{classFigure__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classFigure_a9c58a51110b7035bb899035b15f6aa6d}{Figure} (std\+::string name)
+\item 
+\hyperlink{classFigure_af155c20558330034441de6a19d94f4a7}{$\sim$\+Figure} ()
+\item 
+void \hyperlink{classFigure_ac4960ce394966b1171c8ea49fb694cef}{add\+Drawable} (\hyperlink{classDrawable}{Drawable} $\ast$object)
+\item 
+void \hyperlink{classFigure_a6f239679543a9154ca1b6523094f7eae}{remove\+Drawables} (\hyperlink{classDrawable}{Drawable} $\ast$object)
+\item 
+void \hyperlink{classFigure_ac78a5c4997e27f48b40a2d86a4b92b9c}{update} () const
+\item 
+void \hyperlink{classFigure_a876db9bf0c44bcdcdac91f7d040d5f71}{reshape} (int width, int height)
+\item 
+void \hyperlink{classFigure_afb62fad838fc6f7ece4f88b318b5862a}{draw} ()
+\item 
+void \hyperlink{classFigure_a8d06d9d1a75b58c6f40881c0737bc5e2}{draw\+String} (double x, double y, std\+::string str)
+\item 
+void \hyperlink{classFigure_a7c99f033d2de6e1148bfd972610ad61b}{draw\+Circle} (double x, double y, double radius)
+\item 
+void \hyperlink{classFigure_ad5edf6262504de7c3c7eff6eb8be3c3e}{draw\+Line} (double x1, double y1, double x2, double y2, double thickness)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classFigure_a9c58a51110b7035bb899035b15f6aa6d}\label{classFigure_a9c58a51110b7035bb899035b15f6aa6d}} 
+\index{Figure@{Figure}!Figure@{Figure}}
+\index{Figure@{Figure}!Figure@{Figure}}
+\subsubsection{\texorpdfstring{Figure()}{Figure()}}
+{\footnotesize\ttfamily Figure\+::\+Figure (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classFigure_af155c20558330034441de6a19d94f4a7}\label{classFigure_af155c20558330034441de6a19d94f4a7}} 
+\index{Figure@{Figure}!````~Figure@{$\sim$\+Figure}}
+\index{````~Figure@{$\sim$\+Figure}!Figure@{Figure}}
+\subsubsection{\texorpdfstring{$\sim$\+Figure()}{~Figure()}}
+{\footnotesize\ttfamily Figure\+::$\sim$\+Figure (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classFigure_ac4960ce394966b1171c8ea49fb694cef}\label{classFigure_ac4960ce394966b1171c8ea49fb694cef}} 
+\index{Figure@{Figure}!add\+Drawable@{add\+Drawable}}
+\index{add\+Drawable@{add\+Drawable}!Figure@{Figure}}
+\subsubsection{\texorpdfstring{add\+Drawable()}{addDrawable()}}
+{\footnotesize\ttfamily void Figure\+::add\+Drawable (\begin{DoxyParamCaption}\item[{\hyperlink{classDrawable}{Drawable} $\ast$}]{object }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classFigure_afb62fad838fc6f7ece4f88b318b5862a}\label{classFigure_afb62fad838fc6f7ece4f88b318b5862a}} 
+\index{Figure@{Figure}!draw@{draw}}
+\index{draw@{draw}!Figure@{Figure}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Figure\+::draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \hyperlink{classDrawable_a1231e00fe6022c2ff0e8d61fd23c5c23}{Drawable}.
+
+\mbox{\Hypertarget{classFigure_a7c99f033d2de6e1148bfd972610ad61b}\label{classFigure_a7c99f033d2de6e1148bfd972610ad61b}} 
+\index{Figure@{Figure}!draw\+Circle@{draw\+Circle}}
+\index{draw\+Circle@{draw\+Circle}!Figure@{Figure}}
+\subsubsection{\texorpdfstring{draw\+Circle()}{drawCircle()}}
+{\footnotesize\ttfamily void Figure\+::draw\+Circle (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y,  }\item[{double}]{radius }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classFigure_ad5edf6262504de7c3c7eff6eb8be3c3e}\label{classFigure_ad5edf6262504de7c3c7eff6eb8be3c3e}} 
+\index{Figure@{Figure}!draw\+Line@{draw\+Line}}
+\index{draw\+Line@{draw\+Line}!Figure@{Figure}}
+\subsubsection{\texorpdfstring{draw\+Line()}{drawLine()}}
+{\footnotesize\ttfamily void Figure\+::draw\+Line (\begin{DoxyParamCaption}\item[{double}]{x1,  }\item[{double}]{y1,  }\item[{double}]{x2,  }\item[{double}]{y2,  }\item[{double}]{thickness }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classFigure_a8d06d9d1a75b58c6f40881c0737bc5e2}\label{classFigure_a8d06d9d1a75b58c6f40881c0737bc5e2}} 
+\index{Figure@{Figure}!draw\+String@{draw\+String}}
+\index{draw\+String@{draw\+String}!Figure@{Figure}}
+\subsubsection{\texorpdfstring{draw\+String()}{drawString()}}
+{\footnotesize\ttfamily void Figure\+::draw\+String (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y,  }\item[{std\+::string}]{str }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classFigure_a6f239679543a9154ca1b6523094f7eae}\label{classFigure_a6f239679543a9154ca1b6523094f7eae}} 
+\index{Figure@{Figure}!remove\+Drawables@{remove\+Drawables}}
+\index{remove\+Drawables@{remove\+Drawables}!Figure@{Figure}}
+\subsubsection{\texorpdfstring{remove\+Drawables()}{removeDrawables()}}
+{\footnotesize\ttfamily void Figure\+::remove\+Drawables (\begin{DoxyParamCaption}\item[{\hyperlink{classDrawable}{Drawable} $\ast$}]{object }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classFigure_a876db9bf0c44bcdcdac91f7d040d5f71}\label{classFigure_a876db9bf0c44bcdcdac91f7d040d5f71}} 
+\index{Figure@{Figure}!reshape@{reshape}}
+\index{reshape@{reshape}!Figure@{Figure}}
+\subsubsection{\texorpdfstring{reshape()}{reshape()}}
+{\footnotesize\ttfamily void Figure\+::reshape (\begin{DoxyParamCaption}\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classFigure_ac78a5c4997e27f48b40a2d86a4b92b9c}\label{classFigure_ac78a5c4997e27f48b40a2d86a4b92b9c}} 
+\index{Figure@{Figure}!update@{update}}
+\index{update@{update}!Figure@{Figure}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Figure\+::update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{graphics_8h}{graphics.\+h}\item 
+\hyperlink{graphics_8cpp}{graphics.\+cpp}\end{DoxyCompactItemize}

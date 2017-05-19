@@ -1,0 +1,4 @@
+<map id="Spring" name="Spring">
+<area shape="rect" id="node2" href="$classMass.html" title="{Mass\n|# mass\l# radius\l# xmin\l# xmax\l# ymin\l# ymax\l|+ Mass()\l+ Mass()\l+ setForce()\l+ addForce()\l+ getForce()\l+ getPosition()\l+ getVelocity()\l+ getMass()\l+ getRadius()\l+ getEnergy()\l+ step()\l}" alt="" coords="7,233,114,531"/>
+<area shape="rect" id="node3" href="$classVector2.html" title="{Vector2\n|+ x\l+ y\l|+ Vector2()\l+ Vector2()\l+ norm2()\l+ norm()\l}" alt="" coords="17,5,104,141"/>
+</map>

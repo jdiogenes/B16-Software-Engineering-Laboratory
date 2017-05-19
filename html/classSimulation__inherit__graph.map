@@ -1,0 +1,6 @@
+<map id="Simulation" name="Simulation">
+<area shape="rect" id="node2" href="$classBall.html" title="{Ball\n|# x\l# y\l# vx\l# vy\l# m\l# r\l# g\l# xmin\l# xmax\l# ymin\l# ymax\l|+ Ball()\l+ step()\l+ display()\l+ setBall()\l+ getBallx()\l+ getBally()\l}" alt="" coords="28,145,117,443"/>
+<area shape="rect" id="node4" href="$classSpringMass.html" title="{SpringMass\n|# gravity\l# masses\l# springs\l|+ SpringMass()\l+ step()\l+ display()\l+ getEnergy()\l+ addMass()\l+ addSpring()\l}" alt="" coords="157,204,268,384"/>
+<area shape="rect" id="node3" href="$classBallDrawable.html" title="{BallDrawable\n||+ BallDrawable()\l+ draw()\l+ display()\l}" alt="" coords="5,491,124,597"/>
+<area shape="rect" id="node5" href="$classSpringMassDrawable.html" title="{SpringMassDrawable\n||}" alt="" coords="149,505,295,583"/>
+</map>

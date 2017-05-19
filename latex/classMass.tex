@@ -1,0 +1,197 @@
+\hypertarget{classMass}{}\section{Mass Class Reference}
+\label{classMass}\index{Mass@{Mass}}
+
+
+{\ttfamily \#include $<$springmass.\+h$>$}
+
+
+
+Collaboration diagram for Mass\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{classMass__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classMass_aa5d7017a4539bd4b76422cf193a0d23c}{Mass} ()
+\item 
+\hyperlink{classMass_adc27886a699de8add33229abb90a5469}{Mass} (\hyperlink{classVector2}{Vector2} \hyperlink{classMass_a6a0d58d24ab413d10d0cee1f3fb82bf7}{position}, \hyperlink{classVector2}{Vector2} \hyperlink{classMass_ab3825e4083083ba184e5060303b913a7}{velocity}, double \hyperlink{classMass_a8f37b93ded277000424b7a92adcf9c30}{mass}, double \hyperlink{classMass_afca87b38f7a4a6c4cfadbfba313dc4cf}{radius})
+\item 
+void \hyperlink{classMass_a0e1280cef830d9d160577fe3d46ac6f5}{set\+Force} (\hyperlink{classVector2}{Vector2} f)
+\item 
+void \hyperlink{classMass_aa4c034fd024e5ef2c81b4f9b5ff4ca7a}{add\+Force} (\hyperlink{classVector2}{Vector2} f)
+\item 
+\hyperlink{classVector2}{Vector2} \hyperlink{classMass_a41b3a36c1f242dd8a7018693de3a59bb}{get\+Force} () const
+\item 
+\hyperlink{classVector2}{Vector2} \hyperlink{classMass_a7b244f213544f309b07970e4883089dc}{get\+Position} () const
+\item 
+\hyperlink{classVector2}{Vector2} \hyperlink{classMass_adba409e1c341b4709a2545a354b8c91d}{get\+Velocity} () const
+\item 
+double \hyperlink{classMass_a99e1ec35c6095c90a4b631228f04900f}{get\+Mass} () const
+\item 
+double \hyperlink{classMass_a9ec88fcb850a603f9f9085cfe09796ee}{get\+Radius} () const
+\item 
+double \hyperlink{classMass_a5296c919bc09faea8152b8d40c66f92f}{get\+Energy} (double gravity) const
+\item 
+void \hyperlink{classMass_af603ce820dd8afd520a98d8ac4f00933}{step} (double dt)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classVector2}{Vector2} \hyperlink{classMass_a6a0d58d24ab413d10d0cee1f3fb82bf7}{position}
+\item 
+\hyperlink{classVector2}{Vector2} \hyperlink{classMass_ab3825e4083083ba184e5060303b913a7}{velocity}
+\item 
+\hyperlink{classVector2}{Vector2} \hyperlink{classMass_a0e78a40a61856046fe535f49c66ba04c}{force}
+\item 
+double \hyperlink{classMass_a8f37b93ded277000424b7a92adcf9c30}{mass}
+\item 
+double \hyperlink{classMass_afca87b38f7a4a6c4cfadbfba313dc4cf}{radius}
+\item 
+double \hyperlink{classMass_ad8c92b972c0c32e382bdd180cef9fa37}{xmin}
+\item 
+double \hyperlink{classMass_a6f2faa75c028993b95f07db8acbe1816}{xmax}
+\item 
+double \hyperlink{classMass_a994eea18acef1ab497634ae6c45e627a}{ymin}
+\item 
+double \hyperlink{classMass_a2d5d2f1659dfc4b43096e6f5140114cc}{ymax}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classMass_aa5d7017a4539bd4b76422cf193a0d23c}\label{classMass_aa5d7017a4539bd4b76422cf193a0d23c}} 
+\index{Mass@{Mass}!Mass@{Mass}}
+\index{Mass@{Mass}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{Mass()}{Mass()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Mass\+::\+Mass (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+file\+: \hyperlink{springmass_8cpp}{springmass.\+cpp} brief\+: \hyperlink{classSpringMass}{Spring\+Mass} simulation implementation author\+: Andrea Vedaldi \mbox{\Hypertarget{classMass_adc27886a699de8add33229abb90a5469}\label{classMass_adc27886a699de8add33229abb90a5469}} 
+\index{Mass@{Mass}!Mass@{Mass}}
+\index{Mass@{Mass}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{Mass()}{Mass()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Mass\+::\+Mass (\begin{DoxyParamCaption}\item[{\hyperlink{classVector2}{Vector2}}]{position,  }\item[{\hyperlink{classVector2}{Vector2}}]{velocity,  }\item[{double}]{mass,  }\item[{double}]{radius }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classMass_aa4c034fd024e5ef2c81b4f9b5ff4ca7a}\label{classMass_aa4c034fd024e5ef2c81b4f9b5ff4ca7a}} 
+\index{Mass@{Mass}!add\+Force@{add\+Force}}
+\index{add\+Force@{add\+Force}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{add\+Force()}{addForce()}}
+{\footnotesize\ttfamily void Mass\+::add\+Force (\begin{DoxyParamCaption}\item[{\hyperlink{classVector2}{Vector2}}]{f }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classMass_a5296c919bc09faea8152b8d40c66f92f}\label{classMass_a5296c919bc09faea8152b8d40c66f92f}} 
+\index{Mass@{Mass}!get\+Energy@{get\+Energy}}
+\index{get\+Energy@{get\+Energy}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{get\+Energy()}{getEnergy()}}
+{\footnotesize\ttfamily double Mass\+::get\+Energy (\begin{DoxyParamCaption}\item[{double}]{gravity }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classMass_a41b3a36c1f242dd8a7018693de3a59bb}\label{classMass_a41b3a36c1f242dd8a7018693de3a59bb}} 
+\index{Mass@{Mass}!get\+Force@{get\+Force}}
+\index{get\+Force@{get\+Force}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{get\+Force()}{getForce()}}
+{\footnotesize\ttfamily \hyperlink{classVector2}{Vector2} Mass\+::get\+Force (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classMass_a99e1ec35c6095c90a4b631228f04900f}\label{classMass_a99e1ec35c6095c90a4b631228f04900f}} 
+\index{Mass@{Mass}!get\+Mass@{get\+Mass}}
+\index{get\+Mass@{get\+Mass}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{get\+Mass()}{getMass()}}
+{\footnotesize\ttfamily double Mass\+::get\+Mass (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classMass_a7b244f213544f309b07970e4883089dc}\label{classMass_a7b244f213544f309b07970e4883089dc}} 
+\index{Mass@{Mass}!get\+Position@{get\+Position}}
+\index{get\+Position@{get\+Position}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{get\+Position()}{getPosition()}}
+{\footnotesize\ttfamily \hyperlink{classVector2}{Vector2} Mass\+::get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classMass_a9ec88fcb850a603f9f9085cfe09796ee}\label{classMass_a9ec88fcb850a603f9f9085cfe09796ee}} 
+\index{Mass@{Mass}!get\+Radius@{get\+Radius}}
+\index{get\+Radius@{get\+Radius}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{get\+Radius()}{getRadius()}}
+{\footnotesize\ttfamily double Mass\+::get\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classMass_adba409e1c341b4709a2545a354b8c91d}\label{classMass_adba409e1c341b4709a2545a354b8c91d}} 
+\index{Mass@{Mass}!get\+Velocity@{get\+Velocity}}
+\index{get\+Velocity@{get\+Velocity}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{get\+Velocity()}{getVelocity()}}
+{\footnotesize\ttfamily \hyperlink{classVector2}{Vector2} Mass\+::get\+Velocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classMass_a0e1280cef830d9d160577fe3d46ac6f5}\label{classMass_a0e1280cef830d9d160577fe3d46ac6f5}} 
+\index{Mass@{Mass}!set\+Force@{set\+Force}}
+\index{set\+Force@{set\+Force}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{set\+Force()}{setForce()}}
+{\footnotesize\ttfamily void Mass\+::set\+Force (\begin{DoxyParamCaption}\item[{\hyperlink{classVector2}{Vector2}}]{f }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classMass_af603ce820dd8afd520a98d8ac4f00933}\label{classMass_af603ce820dd8afd520a98d8ac4f00933}} 
+\index{Mass@{Mass}!step@{step}}
+\index{step@{step}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{step()}{step()}}
+{\footnotesize\ttfamily void Mass\+::step (\begin{DoxyParamCaption}\item[{double}]{dt }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classMass_a0e78a40a61856046fe535f49c66ba04c}\label{classMass_a0e78a40a61856046fe535f49c66ba04c}} 
+\index{Mass@{Mass}!force@{force}}
+\index{force@{force}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{force}{force}}
+{\footnotesize\ttfamily \hyperlink{classVector2}{Vector2} Mass\+::force\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classMass_a8f37b93ded277000424b7a92adcf9c30}\label{classMass_a8f37b93ded277000424b7a92adcf9c30}} 
+\index{Mass@{Mass}!mass@{mass}}
+\index{mass@{mass}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{mass}{mass}}
+{\footnotesize\ttfamily double Mass\+::mass\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classMass_a6a0d58d24ab413d10d0cee1f3fb82bf7}\label{classMass_a6a0d58d24ab413d10d0cee1f3fb82bf7}} 
+\index{Mass@{Mass}!position@{position}}
+\index{position@{position}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{position}{position}}
+{\footnotesize\ttfamily \hyperlink{classVector2}{Vector2} Mass\+::position\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classMass_afca87b38f7a4a6c4cfadbfba313dc4cf}\label{classMass_afca87b38f7a4a6c4cfadbfba313dc4cf}} 
+\index{Mass@{Mass}!radius@{radius}}
+\index{radius@{radius}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{radius}{radius}}
+{\footnotesize\ttfamily double Mass\+::radius\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classMass_ab3825e4083083ba184e5060303b913a7}\label{classMass_ab3825e4083083ba184e5060303b913a7}} 
+\index{Mass@{Mass}!velocity@{velocity}}
+\index{velocity@{velocity}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{velocity}{velocity}}
+{\footnotesize\ttfamily \hyperlink{classVector2}{Vector2} Mass\+::velocity\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classMass_a6f2faa75c028993b95f07db8acbe1816}\label{classMass_a6f2faa75c028993b95f07db8acbe1816}} 
+\index{Mass@{Mass}!xmax@{xmax}}
+\index{xmax@{xmax}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{xmax}{xmax}}
+{\footnotesize\ttfamily double Mass\+::xmax\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classMass_ad8c92b972c0c32e382bdd180cef9fa37}\label{classMass_ad8c92b972c0c32e382bdd180cef9fa37}} 
+\index{Mass@{Mass}!xmin@{xmin}}
+\index{xmin@{xmin}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{xmin}{xmin}}
+{\footnotesize\ttfamily double Mass\+::xmin\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classMass_a2d5d2f1659dfc4b43096e6f5140114cc}\label{classMass_a2d5d2f1659dfc4b43096e6f5140114cc}} 
+\index{Mass@{Mass}!ymax@{ymax}}
+\index{ymax@{ymax}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{ymax}{ymax}}
+{\footnotesize\ttfamily double Mass\+::ymax\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classMass_a994eea18acef1ab497634ae6c45e627a}\label{classMass_a994eea18acef1ab497634ae6c45e627a}} 
+\index{Mass@{Mass}!ymin@{ymin}}
+\index{ymin@{ymin}!Mass@{Mass}}
+\subsubsection{\texorpdfstring{ymin}{ymin}}
+{\footnotesize\ttfamily double Mass\+::ymin\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{springmass_8h}{springmass.\+h}\item 
+\hyperlink{springmass_8cpp}{springmass.\+cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,149 @@
+\hypertarget{classSpringMass}{}\section{Spring\+Mass Class Reference}
+\label{classSpringMass}\index{Spring\+Mass@{Spring\+Mass}}
+
+
+{\ttfamily \#include $<$springmass.\+h$>$}
+
+
+
+Inheritance diagram for Spring\+Mass\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{classSpringMass__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Spring\+Mass\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{classSpringMass__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classSpringMass_a5c94ec5d3adf73a7b3b7e9dd10045132}{Spring\+Mass} (double \hyperlink{classSpringMass_a8153c487713e1eea29caf109bc49e373}{gravity}=\hyperlink{springmass_8h_a03ad3bae72a0ac7965460a63fd454f44}{M\+O\+O\+N\+\_\+\+G\+R\+A\+V\+I\+TY})
+\item 
+void \hyperlink{classSpringMass_a187503b09da458570891a38612864e75}{step} (double dt)
+\item 
+void \hyperlink{classSpringMass_a97dc8e01e829e466198b3a8c201a5b13}{display} ()
+\item 
+double \hyperlink{classSpringMass_a1700091076aa83fff57fdec6876bf138}{get\+Energy} () const
+\item 
+int \hyperlink{classSpringMass_ac5185db5ea4078e3af82b7031d893302}{add\+Mass} (\hyperlink{classMass}{Mass} m)
+\item 
+void \hyperlink{classSpringMass_a61799a4987d64402de52f3772b68e8b2}{add\+Spring} (int i, int j, double length, double stiffness)
+\end{DoxyCompactItemize}
+\subsection*{Protected Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef std\+::vector$<$ \hyperlink{classMass}{Mass} $>$ \hyperlink{classSpringMass_a4871d5df726e2e6b656d1b1c5fdfecbe}{masses\+\_\+t}
+\item 
+typedef std\+::vector$<$ \hyperlink{classSpring}{Spring} $>$ \hyperlink{classSpringMass_a31c09e1ecad3d85488d557b76eb633e5}{springs\+\_\+t}
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classSpringMass_a8153c487713e1eea29caf109bc49e373}{gravity}
+\item 
+\hyperlink{classSpringMass_a4871d5df726e2e6b656d1b1c5fdfecbe}{masses\+\_\+t} \hyperlink{classSpringMass_a92b9fedfa5acfae0beb0cbc636407c6f}{masses}
+\item 
+\hyperlink{classSpringMass_a31c09e1ecad3d85488d557b76eb633e5}{springs\+\_\+t} \hyperlink{classSpringMass_a40cdaa9d3d2a622579d8d8b2b356b69b}{springs}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classSpringMass_a4871d5df726e2e6b656d1b1c5fdfecbe}\label{classSpringMass_a4871d5df726e2e6b656d1b1c5fdfecbe}} 
+\index{Spring\+Mass@{Spring\+Mass}!masses\+\_\+t@{masses\+\_\+t}}
+\index{masses\+\_\+t@{masses\+\_\+t}!Spring\+Mass@{Spring\+Mass}}
+\subsubsection{\texorpdfstring{masses\+\_\+t}{masses\_t}}
+{\footnotesize\ttfamily typedef std\+::vector$<$\hyperlink{classMass}{Mass}$>$ \hyperlink{classSpringMass_a4871d5df726e2e6b656d1b1c5fdfecbe}{Spring\+Mass\+::masses\+\_\+t}\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classSpringMass_a31c09e1ecad3d85488d557b76eb633e5}\label{classSpringMass_a31c09e1ecad3d85488d557b76eb633e5}} 
+\index{Spring\+Mass@{Spring\+Mass}!springs\+\_\+t@{springs\+\_\+t}}
+\index{springs\+\_\+t@{springs\+\_\+t}!Spring\+Mass@{Spring\+Mass}}
+\subsubsection{\texorpdfstring{springs\+\_\+t}{springs\_t}}
+{\footnotesize\ttfamily typedef std\+::vector$<$\hyperlink{classSpring}{Spring}$>$ \hyperlink{classSpringMass_a31c09e1ecad3d85488d557b76eb633e5}{Spring\+Mass\+::springs\+\_\+t}\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSpringMass_a5c94ec5d3adf73a7b3b7e9dd10045132}\label{classSpringMass_a5c94ec5d3adf73a7b3b7e9dd10045132}} 
+\index{Spring\+Mass@{Spring\+Mass}!Spring\+Mass@{Spring\+Mass}}
+\index{Spring\+Mass@{Spring\+Mass}!Spring\+Mass@{Spring\+Mass}}
+\subsubsection{\texorpdfstring{Spring\+Mass()}{SpringMass()}}
+{\footnotesize\ttfamily Spring\+Mass\+::\+Spring\+Mass (\begin{DoxyParamCaption}\item[{double}]{gravity = {\ttfamily \hyperlink{springmass_8h_a03ad3bae72a0ac7965460a63fd454f44}{M\+O\+O\+N\+\_\+\+G\+R\+A\+V\+I\+TY}} }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classSpringMass_ac5185db5ea4078e3af82b7031d893302}\label{classSpringMass_ac5185db5ea4078e3af82b7031d893302}} 
+\index{Spring\+Mass@{Spring\+Mass}!add\+Mass@{add\+Mass}}
+\index{add\+Mass@{add\+Mass}!Spring\+Mass@{Spring\+Mass}}
+\subsubsection{\texorpdfstring{add\+Mass()}{addMass()}}
+{\footnotesize\ttfamily int Spring\+Mass\+::add\+Mass (\begin{DoxyParamCaption}\item[{\hyperlink{classMass}{Mass}}]{m }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSpringMass_a61799a4987d64402de52f3772b68e8b2}\label{classSpringMass_a61799a4987d64402de52f3772b68e8b2}} 
+\index{Spring\+Mass@{Spring\+Mass}!add\+Spring@{add\+Spring}}
+\index{add\+Spring@{add\+Spring}!Spring\+Mass@{Spring\+Mass}}
+\subsubsection{\texorpdfstring{add\+Spring()}{addSpring()}}
+{\footnotesize\ttfamily void Spring\+Mass\+::add\+Spring (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j,  }\item[{double}]{length,  }\item[{double}]{stiffness }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSpringMass_a97dc8e01e829e466198b3a8c201a5b13}\label{classSpringMass_a97dc8e01e829e466198b3a8c201a5b13}} 
+\index{Spring\+Mass@{Spring\+Mass}!display@{display}}
+\index{display@{display}!Spring\+Mass@{Spring\+Mass}}
+\subsubsection{\texorpdfstring{display()}{display()}}
+{\footnotesize\ttfamily void Spring\+Mass\+::display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \hyperlink{classSimulation_a6f8e5272dbb5dea34970f0695419ff03}{Simulation}.
+
+\mbox{\Hypertarget{classSpringMass_a1700091076aa83fff57fdec6876bf138}\label{classSpringMass_a1700091076aa83fff57fdec6876bf138}} 
+\index{Spring\+Mass@{Spring\+Mass}!get\+Energy@{get\+Energy}}
+\index{get\+Energy@{get\+Energy}!Spring\+Mass@{Spring\+Mass}}
+\subsubsection{\texorpdfstring{get\+Energy()}{getEnergy()}}
+{\footnotesize\ttfamily double Spring\+Mass\+::get\+Energy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classSpringMass_a187503b09da458570891a38612864e75}\label{classSpringMass_a187503b09da458570891a38612864e75}} 
+\index{Spring\+Mass@{Spring\+Mass}!step@{step}}
+\index{step@{step}!Spring\+Mass@{Spring\+Mass}}
+\subsubsection{\texorpdfstring{step()}{step()}}
+{\footnotesize\ttfamily void Spring\+Mass\+::step (\begin{DoxyParamCaption}\item[{double}]{dt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \hyperlink{classSimulation_a1040e261c063e307871fb1dfe664fb0a}{Simulation}.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classSpringMass_a8153c487713e1eea29caf109bc49e373}\label{classSpringMass_a8153c487713e1eea29caf109bc49e373}} 
+\index{Spring\+Mass@{Spring\+Mass}!gravity@{gravity}}
+\index{gravity@{gravity}!Spring\+Mass@{Spring\+Mass}}
+\subsubsection{\texorpdfstring{gravity}{gravity}}
+{\footnotesize\ttfamily double Spring\+Mass\+::gravity\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classSpringMass_a92b9fedfa5acfae0beb0cbc636407c6f}\label{classSpringMass_a92b9fedfa5acfae0beb0cbc636407c6f}} 
+\index{Spring\+Mass@{Spring\+Mass}!masses@{masses}}
+\index{masses@{masses}!Spring\+Mass@{Spring\+Mass}}
+\subsubsection{\texorpdfstring{masses}{masses}}
+{\footnotesize\ttfamily \hyperlink{classSpringMass_a4871d5df726e2e6b656d1b1c5fdfecbe}{masses\+\_\+t} Spring\+Mass\+::masses\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classSpringMass_a40cdaa9d3d2a622579d8d8b2b356b69b}\label{classSpringMass_a40cdaa9d3d2a622579d8d8b2b356b69b}} 
+\index{Spring\+Mass@{Spring\+Mass}!springs@{springs}}
+\index{springs@{springs}!Spring\+Mass@{Spring\+Mass}}
+\subsubsection{\texorpdfstring{springs}{springs}}
+{\footnotesize\ttfamily \hyperlink{classSpringMass_a31c09e1ecad3d85488d557b76eb633e5}{springs\+\_\+t} Spring\+Mass\+::springs\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{springmass_8h}{springmass.\+h}\item 
+\hyperlink{springmass_8cpp}{springmass.\+cpp}\end{DoxyCompactItemize}
