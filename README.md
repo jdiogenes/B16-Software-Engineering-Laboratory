@@ -30,7 +30,7 @@ Podemos ainda construir um gráfico bidimensional com as coordenadas passadas pe
 
 As opções abaixo foram modificadas no doxyfile para gerar o diagrama de classe rapidamente:
 
-	EXTRACT_ALL            = YES
+    	EXTRACT_ALL            = YES
     	HAVE_DOT               = YES
     	UML_LOOK               = YES
 
