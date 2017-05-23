@@ -28,6 +28,19 @@ Podemos ainda construir um gráfico bidimensional com as coordenadas passadas pe
 ![image](https://cdn.pbrd.co/images/1rGDJGUuj.png)
 
 
+As opções abaixo foram modificadas no doxyfile para gerar o diagrama de classe rapidamente:
+
+	EXTRACT_ALL            = YES
+    	HAVE_DOT               = YES
+    	UML_LOOK               = YES
+
+
+
+Diagrama de classes gerado pelo programa doxygen:
+
+![image](https://cdn.pbrd.co/images/ZqmbLh9X.png)
+
+
 
 
 
